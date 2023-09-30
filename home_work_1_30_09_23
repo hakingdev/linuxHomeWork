@@ -1,0 +1,138 @@
+   0 pwd
+   1 mkdir -p /home/animals
+   2 cd
+   3 ls
+   4 cd 
+   5 cd ..
+   6 cd
+   7 ls
+   8 cd ..
+   9 ls
+  10 cd /home
+  11 ls
+  12 cd animals/
+  13 mkdir dogs
+  14 mkdir cats
+  15 mkdir fish
+  16 tree
+  17 cd cats/
+  18 touch garfield.txt
+  19 ls
+  20 cd ..
+  21 touch /dogs/pluto
+  22 cd dogs/
+  23 ]ls
+  24 ls
+  25 tree
+  26 touch pluto.txt
+  27 ls
+  28 cd ..
+  29 touch /fish/nemo.txt
+  30 ls
+  31 touch /fish nemo.txt
+  32 ls
+  33 rm -r nemo.txt
+  34 ls
+  35 cd fish/
+  36 touch nemo.txt
+  37 ls
+  38 cd
+  39 cd /home
+  40 tree
+  41 cd
+  42 clear
+  43 cd ..
+  44 ls
+  45 mkdir -p /home planets
+  46 rm -r fish
+  47 ls
+  48 cd /home
+  49 tree
+  50 ls
+  51 cd
+  52 cd ..
+  53 mkdir -p /opt Mercury
+  54 mkdir -p /opt Venus
+  55 mkdir -p /opt Mars
+  56 mkdir -p /opt Jupiter
+  57 cd /opt
+  58 ls
+  59 tree
+  60 cd
+  61 clear
+  62 ls
+  63 cd ..
+  64 ls
+  65 cd /opt
+  66 ls
+  67 mkdir Mercury
+  68 ls
+  69 mkdir Venus
+  70 mkdir Mars
+  71 mkdir Jupiter
+  72 ls
+  73 tree
+  74 mv Mercury /home
+  75 ls
+  76 cd /home
+  77 ls
+  78 cd /opt
+  79 ls
+  80 mv Jupiter /home
+  81 mv Mars /home
+  82 ls
+  83 mv Venus /home
+  84 cd
+  85 cd ..
+  86 touch /tmp adam.txt
+  87 cd /tmp
+  88 ls
+  89 cd
+  90 cd /tmp
+  91 ls
+  92 cd
+  93 mkdir /tmp/adam
+  94 cd /tmp
+  95 ls
+  96 cd
+  97 touch /tmp adam.txt
+  98 cd /tmp
+  99 ls
+ 100 cd
+ 101 touch /tmp/adam.txt
+ 102 cd /tmp
+ 103 ls
+ 104 rm -r adam
+ 105 ls
+ 106 cd
+ 107 mkdir -p /home/humans
+ 108 cd /home
+ 109 ls
+ 110 cd
+ 111 cp /tmp/adam.txt /home/humans/adam_new.txt
+ 112 cd /tmp
+ 113 ls
+ 114 cd
+ 115 cd /home
+ 116 ls
+ 117 cd humans/
+ 118 ls
+ 119 cd
+ 120 touch /tmp/evA.txt
+ 121 cd /tmp/
+ 122 ls
+ 123 mv eva.txt /opt/eve.txt
+ 124 mv evA.txt /opt/eve.txt
+ 125 cd /opt
+ 126 ls
+ 127 tree
+ 128 cd
+ 129 mv /opt/eve.txt /home/humans
+ 130 cd /home
+ 131 ls
+ 132 cd humans/
+ 133 ls
+ 134 tree
+ 135 cd ..
+ 136 tree
+ 137 history > home_work_1_30_09_23
