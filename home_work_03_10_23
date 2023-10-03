@@ -1,0 +1,25 @@
+   0 mkdir -p /home/user /home/user/start /opt/task/
+   1 > /home/user/start/1.txt
+   2 echo "Start" /home/user/start/1.txt 
+   3 echo "Start" >> /home/user/start/1.txt 
+   4 date '+%D' >> /home/user/start/1.txt 
+   5 cat /home/user/start/1.txt 
+   6 cp /home/user/start/1.txt /opt/task/start.txt
+   7 ls -la | tail -4
+   8 ls -la | tail -4 >> /opt/task/start.txt 
+   9 cat /opt/task/start.txt 
+  10 mkdir /tmp/testnew/
+  11 cp /opt/task/ /tmp/testnew/
+  12 cp -r /opt/task/ /tmp/testnew/
+  13 cd /tmp/testnew/task/
+  14 ls
+  15 cat start.txt 
+  16 cd
+  17 ls -la
+  18 cat readme.txt >> /tmp/testnew/task/start.txt 
+  19 cat /tmp/testnew/task/start.txt 
+  20 rm -r /opt/task/
+  21 cd /opt
+  22 tree
+  23 history
+  24 history > home_work_03_10_23
